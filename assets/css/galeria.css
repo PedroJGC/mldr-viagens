@@ -1,0 +1,12 @@
+.interna_galeria {
+    background: url("../images/galeria-jiujitsu-2.png") no-repeat center;
+}
+
+.links {
+    margin: 40px 0 40px 0;
+}
+
+.links a img {
+    width: 150px;
+    height: 150px;
+}

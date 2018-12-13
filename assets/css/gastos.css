@@ -1,0 +1,12 @@
+.interna_gastos {
+    background: url("../images/gastos-1.jpg") no-repeat center;
+}
+
+.links {
+    margin: 40px 0 40px 0;
+}
+
+.links a img {
+    width: 150px;
+    height: 150px;
+}

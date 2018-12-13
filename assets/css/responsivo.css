@@ -1,0 +1,156 @@
+/* Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* HEADER */
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    .title {
+        display: none;
+    }
+
+    /* Aulas-Home*/
+
+    .sobre:after {
+        right: 66px;
+    }
+
+    .sobre img {
+        margin: 0 287px;
+    }
+
+    .sobre_lista li {
+        padding: 0 10px;
+    }
+
+    /* GASTOS/GALERIA */
+
+    .links {
+        margin: 40px 0 40px 80px;
+    }
+}
+/* Smartphone */    
+ 
+@media only screen and (max-width: 767px) {
+   /* HEADER */
+
+    html, body {
+        overflow-x: hidden;
+    }
+    .title {
+        display: none;
+    }
+  
+    .header {
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    .header img {
+        margin: 0 38% 20px 38%;
+    }
+
+    .header_menu {
+        text-align: center;
+    }
+
+    .header_menu ul li {
+        margin: 5px;
+    }
+
+    .header_menu ul li a {
+        border: 2px solid #FFF;
+        width: 136px;
+        display: block;
+        float: left;
+    }
+
+    .header_menu ul li a:hover {
+        border-color: #000;
+    }
+
+    .header_menu ul li a.menu_ativo {
+        border-color: #000;
+    }
+
+    /* INTRODUÇÃO */
+    
+    .introducao {
+        margin-top: 0;
+        padding-top: 5px;    
+    }
+
+    .introducao h1 {
+        font-size: 28px;
+        background-color:rgba(0,0,0,0.6);
+    }
+
+    /* INTRODUÇÃO INTERNA */
+
+    .introducao-interna {
+        margin-top: 0;
+    }
+    
+
+    /* CALL */
+
+    .call {
+        padding-top: 10px;
+    }
+
+     /* Sobre-Home*/
+
+     .sobre:after {
+        display: none;
+    }
+
+    .sobre img {
+        margin: 0 55px;
+    }
+
+    .sobre_lista {
+        padding-top: 0;
+        padding-left: 5px;
+    }
+
+    /* SOBRE */
+
+    .missao_sobre p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 0;
+    }
+
+    .missao_sobre ul li {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    /* GASTOS/GALERIA */
+
+    .links {
+        margin: 0px 0 20px 10px;
+    }
+    
+    .links a img {
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin: 5px;
+    }
+
+    /* AULAS */
+
+    .missao_aulas p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 0;
+    }
+    
+    .missao_aulas ul li {
+        font-size: 14px;
+        line-height: 30px;
+    }
+}  

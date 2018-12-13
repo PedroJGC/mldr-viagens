@@ -1,0 +1,440 @@
+/* Estilos Gerais */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #F8F8FF;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    border: 3px solid #4267B2;
+    padding: 10px 30px;
+    color: #4267B2;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    transition: all .5s ease;
+}
+
+.btn:hover {
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.btn.btn-preto:hover {
+    color: #000;
+    border-color: #000;
+}
+
+.subtitulo {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #444;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #444;
+    margin: 8px auto;
+}
+
+.subtitulo-interno {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px 0;
+}
+
+/* Header */
+
+.header-escuro {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 1s ease;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    transition: all 1s ease;
+    z-index: 10;
+}
+
+.title {
+    float: right;
+    line-height: 70px;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.header_menu ul li a {
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    padding: 10px 0;
+    transition: all .3s ease;
+}
+
+.header_menu ul li a:hover {
+    color: #F36461;
+}
+
+.header_menu ul li a.menu_ativo {
+    color: #F36461;
+}
+
+/* Introdução */
+
+.introducao {
+    width: 100%;
+    height: 695px;
+    background: url("../images/bonde-noite.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 440px;
+    background-attachment: fixed;
+}
+
+.introducao h1 {
+    font-size: 48px;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.btnIniciar {
+    width: 130px;
+    height: 50px;
+    margin-top: 20px;
+    background: #F36461;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+}
+.btnIniciar:hover {
+    margin-top: 25px;
+    transition: all 0.1s ease-out;
+}
+
+/* Introdução Interna */
+
+.introducao-interna {
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+    padding-top: 30px;
+}
+
+.introducao-interna h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #FFF;
+    margin: 6px auto 10px auto;
+}
+
+/* SOBRE */
+
+.sobre {
+    padding: 104px 0;
+}
+
+.sobre_area {
+    padding-top: 30px;
+}
+
+.sobre h3 {
+    color: #444;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.sobre p {
+    color: #878787;
+    margin-top: 20px;
+}
+
+.quote {
+    padding: 50px 0 0 0;
+}
+
+.quote p {
+    text-align: center;
+}
+ 
+/* Galeria */
+
+.galeria {
+    width: 100%;
+    background: #1E1E1E;
+    padding: 40px 0;
+}
+
+.galeria .subtitulo {
+    color: #FFF;
+}
+
+.galeria .subtitulo:after {
+    background: #FFF;
+}
+
+.galeria_lista li:last-child {
+    margin-top: 16px;
+}
+
+.galeria .call p {
+    color: #FFF;
+}
+
+.btnGaleria {
+    width: 130px;
+    height: 50px;
+    margin-top: 20px;
+    background: #F36461;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+}
+
+/* PACOTES */
+
+.pacotes {
+    padding: 110px 0;
+}
+
+.pacotes_lista li {
+    /*background: #4267B2;*/
+    text-align: center;
+}
+
+.pacotes_lista li h3 {
+    color: #444;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.pacotes_lista li h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #444;
+    margin: 2px auto;
+}
+
+.pacotes_lista li p {
+    color: #878787;
+    padding: 10px 20px 20px 20px;
+}
+
+.btnPacotes {
+    width: 130px;
+    height: 50px;
+    margin-top: 20px;
+    background: #F36461;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+}
+
+
+.pacotes .call p {
+    color: #878787;
+}
+
+.call {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.call p {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    background: #F8F8FF;
+    color: #878787;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #F36461;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #F36461;
+    margin: 6px 0 12px 200px;
+}
+
+.footer_contato ul li {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer_redes ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer_redes ul li a {
+    border: 3px solid #F36461;
+    border-radius: 2px;
+    display: block;
+    padding: 10px;
+    transition: all .5s ease;
+}
+
+.footer_redes ul li a:hover {
+    border-color: #FFF;
+}
+
+/* Copy */
+
+.copy {
+    width: 100%;
+    color: #FFF;
+    background: #1E1E1E;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* ANIMAÇÕES */
+
+.js .introducao h1, .js .animar, .js .introducao-interna h1, .js .introducao-interna p, .js .btnIniciar {
+    opacity: 0;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -50px, 0);
+        transform: translate3d(0, -50px, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -50px, 0);
+        transform: translate3d(0, -50px, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}

@@ -1,0 +1,26 @@
+.interna_contato {
+    background: url("../images/contato-tatame-1.jpg") no-repeat center;
+}
+
+.missao_contato {
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+.missao_contato p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 60px;
+}
+
+.missao_contato ul li {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.missao_contato ul li a {
+    color: inherit;
+}
+
+ 
